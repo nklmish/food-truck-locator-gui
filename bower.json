@@ -1,0 +1,32 @@
+{
+  "name": "food-truck-locator-gui",
+  "version": "0.1.0",
+  "description": "App for locating food trucks near you!!",
+  "authors": [
+    "nklmish"
+  ],
+  "homepage": "http://localhost:3000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "backbone": "~1.1.2",
+    "underscore": "~1.8.0",
+    "jquery": "^2.2.0",
+    "handlebars": "^4.0.5",
+    "backbone.typeahead": "^0.3.0",
+    "seiyria-bootstrap-slider": "^6.0.17"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}
