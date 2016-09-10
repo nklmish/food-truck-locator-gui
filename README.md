@@ -1,5 +1,5 @@
 # food-truck-locator-gui
-A sample app developed to play with backbone for consuming food truck api. Currently support only USA
+A sample app developed to play with backbone for consuming food truck api. Currently supports only USA (since backend fetches data only USA specific API)
 
 ##Docker :
 You can either fetch pre-build image from docker hub via 
